@@ -1,0 +1,102 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background: #fef9f3; /* Light sandal background */
+  color: #222;
+}
+
+header {
+  background: #fae5c3;
+  padding: 2rem;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+header h1 {
+  font-size: 3rem;
+  color: #3e2a1c;
+}
+
+header p {
+  font-size: 1.2rem;
+  color: #5c4b3c;
+}
+
+.intro {
+  text-align: center;
+  padding: 2rem;
+  background: #fff8ec;
+}
+
+.intro h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.controls {
+  text-align: center;
+  margin: 1rem;
+  font-size: 1.1rem;
+}
+
+select {
+  padding: 0.6rem 1rem;
+  border-radius: 5px;
+  border: 1px solid #d3bfa8;
+  background-color: #fef5e7;
+  font-size: 1rem;
+  margin-left: 0.5rem;
+}
+
+table {
+  width: 90%;
+  margin: 2rem auto;
+  border-collapse: collapse;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+}
+
+th, td {
+  padding: 1rem;
+  text-align: center;
+  font-size: 1.1rem;
+  border-bottom: 1px solid #f2e4d8;
+}
+
+thead {
+  background: #fbe2c4;
+  font-weight: bold;
+}
+
+tbody tr:hover {
+  background: #fdf0de;
+  transition: background 0.3s ease;
+}
+
+footer {
+  background: #fae5c3;
+  text-align: center;
+  padding: 1.5rem;
+  font-size: 0.95rem;
+  color: #4c3b2e;
+  margin-top: 3rem;
+}
+.bar {
+  height: 8px;
+  margin-top: 4px;
+  border-radius: 4px;
+}
+
+.bar.quality {
+  background: #ffb347;
+}
+
+.bar.quantity {
+  background: #86c5a3;
+}
+
+.bar.price {
+  background: #d98c8c;
+}

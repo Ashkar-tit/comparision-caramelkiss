@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Caramel Kiss – Dessert Shop Comparison</title>
+  <link rel="stylesheet" href="compa.css" />
+</head>
+<tbody>
+  <header>
+    <h1>Caramel Kiss</h1>
+    <p>Compare Top Dessert Shops – Quality | Quantity | Price</p>
+  </header>
+
+  <main>
+    <section class="intro">
+      <h2>Customer-Friendly Dessert Comparison</h2>
+      <p>Make informed choices before you indulge. Compare dessert shops by quality, quantity, and price in Indian Rupees.</p>
+    </section>
+
+    <section class="controls">
+      <label for="sort">Sort by:</label>
+      <select id="sort">
+        <option value="name">Shop Name</option>
+        <option value="quality">Quality</option>
+        <option value="quantity">Quantity</option>
+        <option value="price">Price</option>
+      </select>
+    </section>
+
+    <section class="comparison">
+      <table id="comparisonTable">
+        <thead>
+          <tr>
+            <th>Shop Name</th>
+            <th>Quality (⭐)</th>
+            <th>Quantity (g/ml)</th>
+            <th>Price (₹)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Cake Villa</td><td data-quality="5">★★★★★</td><td data-quantity="250">250</td><td data-price="180">₹180</td></tr>
+          <tr><td>Sweet Bite</td><td data-quality="4">★★★★☆</td><td data-quantity="200">200</td><td data-price="150">₹150</td></tr>
+          <tr><td>Dessert Bliss</td><td data-quality="5">★★★★★</td><td data-quantity="300">300</td><td data-price="220">₹220</td></tr>
+          <tr><td>Choco Heaven</td><td data-quality="4">★★★★☆</td><td data-quantity="180">180</td><td data-price="140">₹140</td></tr>
+          <tr><td>Sugar Spoon</td><td data-quality="3">★★★☆☆</td><td data-quantity="220">220</td><td data-price="130">₹130</td></tr>
+          <tr><td>Frosty Love</td><td data-quality="4">★★★★☆</td><td data-quantity="250">250</td><td data-price="170">₹170</td></tr>
+          <tr><td>Bake & Shake</td><td data-quality="3">★★★☆☆</td><td data-quantity="210">210</td><td data-price="160">₹160</td></tr>
+          <tr><td>Gold Crumbs</td><td data-quality="5">★★★★★</td><td data-quantity="280">280</td><td data-price="240">₹240</td></tr>
+          <tr><td>Cream Cottage</td><td data-quality="4">★★★★☆</td><td data-quantity="230">230</td><td data-price="155">₹155</td></tr>
+          <tr><td>Sweet Dusk</td><td data-quality="3">★★★☆☆</td><td data-quantity="200">200</td><td data-price="145">₹145</td></tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <footer>
+      <script src=".js"></script>
+  <tr>
+    <td>Cake Villa</td>
+    <td data-quality="5">
+      ★★★★★
+      <div class="bar quality" style="width: 100%"></div>
+    </td>
+    <td data-quantity="250">
+      250g
+      <div class="bar quantity" style="width: 83.3%"></div>
+    </td>
+    <td data-price="180">
+      ₹180
+      <div class="bar price" style="width: 60%"></div>
+    </td>
+  </tr>
+  <tr>
+    <td>Sweet Bite</td>
+    <td data-quality="4">
+      ★★★★☆
+      <div class="bar quality" style="width: 80%"></div>
+    </td>
+    <td data-quantity="200">
+      200g
+      <div class="bar quantity" style="width: 66.6%"></div>
+    </td>
+    <td data-price="150">
+      ₹150
+      <div class="bar price" style="width: 50%"></div>
+    </td>
+  </tr>
+  <!-- Repeat for remaining shops, adjusting width % accordingly -->
+<p>&copy; 2025 Caramel Kiss | Designed with love for sweet lovers 🍰</p>
+  </footer>
+
+
+</tbody>
+</html>
